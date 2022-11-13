@@ -1,0 +1,78 @@
+.container h2{
+    font-family: cooper;
+    letter-spacing: 1px;
+}
+.container h1{
+    
+    font-size: 25px;
+    color: #444444;
+}
+.container .text{
+    color: #444444;
+    font-family: cooper;
+}
+.container {
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .progress2 {
+    padding: 6px;
+    border-radius: 10px;
+    background: #444444;
+  }
+  
+  .progress-bar1 {
+    height: 18px;
+    border-radius: 5px;
+  }
+  
+  .progress-moved .progress-bar1 {
+    width: 90%; 
+    background-color:rgba(211, 224, 211, 0.782);  
+    animation: progressAnimation 4s;
+    animation-iteration-count: infinite;
+  }
+  .progress-bar2 {
+    height: 18px;
+    border-radius: 5px;
+  }
+  
+  .progress-moved .progress-bar2{
+    width: 55%; 
+    background-color:rgba(211, 224, 211, 0.782);  
+    animation: progressAnimation 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .progress-bar3 {
+    height: 18px;
+    border-radius: 5px;
+  }
+  
+  .progress-moved .progress-bar3{
+    width: 70%; 
+    background-color:rgba(211, 224, 211, 0.782);  
+    animation: progressAnimation 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  .progress-bar4 {
+    height: 18px;
+    border-radius: 5px;
+  }
+  
+  .progress-moved .progress-bar4{
+    width: 63%; 
+    background-color:rgba(211, 224, 211, 0.782);  
+    animation: progressAnimation 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes progressAnimation {
+    0%   { width: 5%; 
+        background-color:rgba(211, 224, 211, 0.782);}
+    }
+

@@ -1,0 +1,42 @@
+.circle{
+    padding: 20px;
+    margin-top: 30px ;
+    width: 50%;
+    height: 455px;
+    text-align: center;
+    background-color: rgba(211, 224, 211, 0.782);
+    border-radius: 20px;
+    opacity: 0.6;
+    
+}
+.circle h1{
+    font-size: 25px;
+    color: #444444;
+    opacity: 1;
+}
+.content{
+    width: 100%;
+   text-align: left;
+   line-height: 1.5;
+   text-indent: 2em;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.ref{
+    height: 50%;
+}
+
+.ref :hover{
+    color: black;
+    font-size: larger;
+    letter-spacing: 3px;
+}
+.quote{
+    height: 50%;
+}
+.quote :hover{
+    color: black;
+    font-size: larger;
+    letter-spacing: 3px;
+}
