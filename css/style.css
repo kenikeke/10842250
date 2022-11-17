@@ -38,16 +38,7 @@ nav  :hover{
    
 }
 
-.flex{
-    max-width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    flex-grow: 2;
-    
-}
+
 .s1{
     position: relative;
     background-color: rgba(211, 224, 211, 0.782);
@@ -72,7 +63,7 @@ nav  :hover{
     text-align: center;
     text-align: center;
     flex: 0 0 auto;
-    width: 50%;
+  
 }
 .about h2{
     margin: 10px;
@@ -81,29 +72,25 @@ nav  :hover{
 .aboutme p{
     text-align: left;
 }
-#info,#dep{
-    display:inline-block;
-    width: 50%;
-}
+
 #dep{
     position: absolute;
     font-size: 16px;
     top: 10%;
-    right:30px;
+    left:30px;
     width: fit-content;
     font-size: larger;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 0.7;
 }
 #dep :hover{
     letter-spacing: 8px;
     font-size: larger;
-}
-#info{
-    position:absolute;
-    width: fit-content;
-    right: 270px;
-    bottom: 5px;
-    
-}
+    text-align: center;
+    transition: 0.8s;
+}    
 
 .iconimg{
   
@@ -149,6 +136,7 @@ nav  :hover{
 .container :hover{
     letter-spacing: 9px;
     font-size: 30px;
+    transition: 1s;
 }
 
 .flex2{
